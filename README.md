@@ -1,4 +1,4 @@
-rails_mirror_reflection
+RailsMirrorReflection
 =======================
 
 Rails project to mirror app based on it Database
