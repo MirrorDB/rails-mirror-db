@@ -22,7 +22,7 @@ Or install it yourself as:
 
 1. Install the Rails GEM (3.2 or greater)
     * $ gem install rails
-2. [Install the GEM](#installation)
+2. [Install the MirrorGEM](#installation)
 3. __Run__:
     ```ruby
         rake mirror_reflection:new project_name
