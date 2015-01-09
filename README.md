@@ -23,7 +23,18 @@ Or install it yourself as:
 1. Install the Rails GEM (3.2 or greater)
     * $ gem install rails
 2. [Install the MirrorGEM](#installation)
-3. __Run__:     
+3. If you want one code-line:
+    ```git
+        git clone git@github.com:MirrorReflection/rails_mirror_reflection.git
+    ```
+    
+    * ``` $ cd rails_mirror_reflection ```
+    * Go to step 5
+4. If you want to generate your rails app
+    * Create your app normaly: ``` $ rails new project_name ```
+    * Access it ``` $ cd project_name ```
+    * Run the mirror ``` $ rake mirror:install ```
+5. __Run__:     
     ```ruby
         rake mirror:new project_name sgbd_name database_name username password host
     ```
