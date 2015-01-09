@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png)   MirrorReflection
+# ![MirrorBrand](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png)   MirrorReflection
 
 TODO: Write a gem description
 
@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Install the Rails GEM (3.2 or greater)
+    * $ gem install rails
+2. [Install the GEM](#installation)
+3. __Run__:
+    ```ruby
+        rake mirror_reflection:new project_name
+    ```
+__Congratilation!__ your new app mirrored is up.
 
 ## Contributing
 
@@ -29,3 +36,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## How does it work on the core
+![Mirror WorkFlow Diagram](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png)
