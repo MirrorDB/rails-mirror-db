@@ -29,11 +29,13 @@ Or install it yourself as:
     ```
     
     * ``` $ cd rails_mirror_reflection ```
+    * __Obs__: This usage permit to update your __database.yml__ dynamic
     * Go to step 5
 4. If you want to generate your rails app
     * Create your app normaly: ``` $ rails new project_name ```
     * Access it ``` $ cd project_name ```
     * Run the mirror ``` $ rake mirror:install ```
+    * __Obs__: This usage you must update your __database.yml__ by yourself
 5. __Run__:     
     ```ruby
         rake mirror:new project_name sgbd_name database_name username password host
