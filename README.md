@@ -38,13 +38,13 @@ Or install it yourself as:
     * __Obs__: This usage you must update your __database.yml__ by yourself
 5. __Run__:     
     ```ruby
-        rake mirror:new project_name sgbd_name database_name username password host
+        rake mirror:new[project_name sgbd_name database_name username password host]
     ```
     <br>
     
     __Obs__: if your DataBase connections is default (localhost, root, no_password) just run
     ```ruby
-        rake mirror:new project_name
+        rake mirror:new[project_name]
     ```
 <br><br>
 __Congratilation!__ your new app mirrored is up.
