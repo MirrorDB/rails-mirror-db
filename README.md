@@ -1,4 +1,4 @@
-# MirrorReflection
+# ![](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png)   MirrorReflection
 
 TODO: Write a gem description
 
