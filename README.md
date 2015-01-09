@@ -26,9 +26,10 @@ Or install it yourself as:
 3. __Run__:     
     ```ruby
         rake mirror_reflection:new project_name sgbd_name database_name username password host
-    ```<br><br>
-__Obs__: if your DataBase connections is default (localhost, root, no_password) just run
-    <br>    
+    ```
+    <br>
+    
+    __Obs__: if your DataBase connections is default (localhost, root, no_password) just run
     ```ruby
         rake mirror_reflection:new project_name
     ```
