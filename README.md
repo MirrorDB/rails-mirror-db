@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 1. Install the Rails GEM (3.2 or greater)
-    * $ gem install rails
+    * ``` $ gem install rails ```
 2. [Install the MirrorGEM](#installation)
 3. If you want one code-line:
     ```git
