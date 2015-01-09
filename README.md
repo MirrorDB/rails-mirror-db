@@ -31,7 +31,7 @@ Or install it yourself as:
     
     __Obs__: if your DataBase connections is default (localhost, root, no_password) just run
     ```ruby
-        rake mirror_reflection:new project_name
+        rake mirror:new project_name
     ```
 <br><br>
 __Congratilation!__ your new app mirrored is up.
