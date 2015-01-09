@@ -25,7 +25,7 @@ Or install it yourself as:
 2. [Install the MirrorGEM](#installation)
 3. __Run__:     
     ```ruby
-        rake mirror_reflection:new project_name sgbd_name database_name username password host
+        rake mirror:new project_name sgbd_name database_name username password host
     ```
     <br>
     
