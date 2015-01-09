@@ -23,10 +23,15 @@ Or install it yourself as:
 1. Install the Rails GEM (3.2 or greater)
     * $ gem install rails
 2. [Install the MirrorGEM](#installation)
-3. __Run__:
+3. __Run__:     
+    ```ruby
+        rake mirror_reflection:new project_name sgbd_name database_name username password host
+    ```<Br>
+        __Obs__: if your DataBase connections is default (localhost, root, no_password) just run
     ```ruby
         rake mirror_reflection:new project_name
     ```
+<br><br>
 __Congratilation!__ your new app mirrored is up.
 
 ## Contributing
