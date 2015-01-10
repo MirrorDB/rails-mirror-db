@@ -24,15 +24,15 @@ Or install it yourself as:
 2. [Install the MirrorGEM](#installation)
 3. Generate your rails project
 
-    $ rails new app_name
+    ``` $ rails new app_name ```
     
 4. Access your app folder
 
-    $ cd app_name
+    ``` $ cd app_name ```
     
 5. Run the mirror installation
 
-    $ rails g mirror_reflection:install 
+    ``` $ rails g mirror_reflection:install ```
     
 6. Run the mirror setup (it run the mirror installs & it scaffolds)
 
