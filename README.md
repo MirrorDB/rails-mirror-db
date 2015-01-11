@@ -46,10 +46,12 @@ __Congratilation!__ your new app mirrored is up. :tada:
 ## Contributing
 
 1. Fork it :twisted_rightwards_arrows: ( https://github.com/[my-github-username]/mirror_reflection/fork )
+    * Create and check issues pending ([good issue pattern created example](https://github.com/MirrorReflection/rails_mirror_reflection/issues/12))
 2. Create your :new: feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes :up: (`git commit -am 'Add some feature'`)
 4. Push to the branch :repeat: (`git push origin my-new-feature`)
 5. Create a new Pull Request :repeat_one:
+
 
 ## How does it work on the core :zap:
 ![Mirror WorkFlow Diagram](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png)
