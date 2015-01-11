@@ -1,7 +1,5 @@
 # ![MirrorBrand](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png)   MirrorReflection
 
-TODO: Write a gem description
-
 ## Installation
 
 Add the MirrorReflection:gem: to your application's Gemfile :page_facing_up::
