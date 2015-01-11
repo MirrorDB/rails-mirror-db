@@ -37,16 +37,16 @@
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
-<p>Add this line to your application's Gemfile:</p>
+<p>Add the MirrorReflection<img class="emoji" title=":gem:" alt=":gem:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" height="20" width="20" align="absmiddle"> to your application's Gemfile <img class="emoji" title=":page_facing_up:" alt=":page_facing_up:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4c4.png" height="20" width="20" align="absmiddle">:</p>
 
 <div class="highlight highlight-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s1"><span class="pl-pds">'</span>mirror_reflection<span class="pl-pds">'</span></span></pre></div>
 
-<p>And then execute:</p>
+<p>And then execute <img class="emoji" title=":arrow_forward:" alt=":arrow_forward:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/25b6.png" height="20" width="20" align="absmiddle">:</p>
 
-<pre><code>$ bundle
+<pre><code>$ bundle install
 </code></pre>
 
-<p>Or install it yourself as:</p>
+<p>Or install it yourself as <img class="emoji" title=":arrow_forward:" alt=":arrow_forward:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/25b6.png" height="20" width="20" align="absmiddle">:</p>
 
 <pre><code>$ gem install mirror_reflection
 </code></pre>
@@ -55,54 +55,42 @@
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <ol>
-<li>Install the Rails GEM (3.2 or greater)
+<li>Install the Rails<img class="emoji" title=":gem:" alt=":gem:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" height="20" width="20" align="absmiddle"> (3.2 or greater)
 
 <ul>
-<li>$ gem install rails</li>
+<li><code>$ gem install rails</code></li>
 </ul>
 </li>
 <li><a href="#installation">Install the MirrorGEM</a></li>
 <li>
-<p>If you want one code-line:</p>
+<p>Generate your rails project</p>
 
-<pre lang="git"><code>    git clone git@github.com:MirrorReflection/rails_mirror_reflection.git
-</code></pre>
-
-<ul>
-<li><code>$ cd rails_mirror_reflection</code></li>
-<li>
-<strong>Obs</strong>: This usage permit to update your <strong>database.yml</strong> dynamic</li>
-<li>Go to step 5</li>
-</ul>
-</li>
-<li>If you want to generate your rails app
-
-<ul>
-<li>Create your app normaly: <code>$ rails new project_name</code>
-</li>
-<li>Access it <code>$ cd project_name</code>
-</li>
-<li>Run the mirror <code>$ rake mirror:install</code>
+<p><code>$ rails new app_name</code></p>
 </li>
 <li>
-<strong>Obs</strong>: This usage you must update your <strong>database.yml</strong> by yourself</li>
-</ul>
+<p>Access your app folder</p>
+
+<p><code>$ cd app_name</code></p>
 </li>
 <li>
-<p><strong>Run</strong>:     </p>
+<p>Run the mirror installation <img class="emoji" title=":dash:" alt=":dash:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a8.png" height="20" width="20" align="absmiddle"></p>
 
-<div class="highlight highlight-ruby"><pre>    rake <span class="pl-c1">mirror:</span><span class="pl-k">new</span>[project_name sgbd_name database_name username password host]</pre></div>
+<p><code>$ rails g mirror_reflection:install</code></p>
+</li>
+<li>
+<p>Run the mirror reflect <img class="emoji" title=":boom:" alt=":boom:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a5.png" height="20" width="20" align="absmiddle"> (it scaffolds, so lets <img class="emoji" title=":pizza:" alt=":pizza:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f355.png" height="20" width="20" align="absmiddle"> while the mirror work for you <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20" align="absmiddle">)</p>
+
+<div class="highlight highlight-rake"><pre>    <span class="pl-c"># DBMS == SGBD </span>
+    rake <span class="pl-c1">mirror:</span>reflect[dbms_name database_name username password host]</pre></div>
 
 <p><br></p>
 
-<p><strong>Obs</strong>: if your DataBase connections is default (localhost, root, no_password) just run</p>
-
-<div class="highlight highlight-ruby"><pre>    rake <span class="pl-c1">mirror:</span><span class="pl-k">new</span>[project_name]</pre></div>
-
-<p><br><br>
-<strong>Congratilation!</strong> your new app mirrored is up.</p>
+<p><strong>Obs</strong>: if your DataBase connections is default (localhost, root, no_password) params are unnecessary <img class="emoji" title=":beers:" alt=":beers:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f37b.png" height="20" width="20" align="absmiddle"></p>
 </li>
 </ol>
+
+<p><br><br>
+<strong>Congratilation!</strong> your new app mirrored is up. <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20" align="absmiddle"></p>
 
 <h2>
 <a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
