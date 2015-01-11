@@ -34,26 +34,24 @@ Or install it yourself as :arrow_forward::
 
     ``` $ rails g mirror_reflection:install ```
     
-6. Run the mirror reflect :boom: (it scaffolds, so lets :pizza: while the mirror work for you :tada:)
+6. Run the mirror reflect :boom: (it runs scaffolds, so lets :pizza: while the mirror work for you :tada:)
 
     ```rake
-        # DBMS == SGBD 
+        # DBMS = SGBD 
         rake mirror:reflect[dbms_name database_name username password host]
     ```
-    <br>
-    
-    __Obs__: if your DataBase connections is default (localhost, root, no_password) params are unnecessary :beers:
+    __Obs__: if your DB connections are not default (localhost, root, no_password) :beers:
 
 <br><br>
 __Congratilation!__ your new app mirrored is up. :tada:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/mirror_reflection/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it :twisted_rightwards_arrows: ( https://github.com/[my-github-username]/mirror_reflection/fork )
+2. Create your :new: feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes :up: (`git commit -am 'Add some feature'`)
+4. Push to the branch :repeat: (`git push origin my-new-feature`)
+5. Create a new Pull Request :repeat_one:
 
-## How does it work on the core
+## How does it work on the core :zap:
 ![Mirror WorkFlow Diagram](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png)
