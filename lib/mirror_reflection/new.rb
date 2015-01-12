@@ -36,6 +36,7 @@ class MirrorReflection::New
     }
 
     system("rails new #{@project}")
+    system("rake mirror:install[#{@project}]")
   end
 
   def self.project

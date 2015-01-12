@@ -1,0 +1,127 @@
+# ========================== GEMs Added by MirrorGem ==============================
+
+# Add itself gem
+gem 'mirror_reflection'
+
+# Add here BRAZIL & other countries gems
+gem 'cpf_cnpj'
+
+# Add a workflow to the model which can't be on some state before another
+gem "workflow"
+
+# To generate great report's charts
+gem 'chartjs-ror'
+gem 'lazy_high_charts'
+gem "highcharts-rails"
+
+# To prettify the progress while navigating
+gem 'nprogress-rails'
+
+# Color to the prints on console (PUTS)
+gem 'colorize'
+
+# To easy consume REST API
+gem 'rest-client'
+
+# To consume SOAP WebServices API
+gem 'savon'
+
+# To Async tasks
+gem 'rufus-scheduler'
+
+# PaymentMethods
+gem 'rents'
+
+# For easy user session management
+gem 'devise'
+
+# For global usage of Google API services, like Google+ & the URLShorter (Goo.gl)
+gem 'google-api-client'
+
+# GEMs with we use as client of it services
+# Gem for UPLOAD files
+gem 'paperclip'
+gem 'aws-sdk'
+gem 's3_direct_upload'
+
+# Monitoring the application
+gem 'newrelic_rpm'
+
+# Gem to generate SocialShareURLs
+gem 'just_share'
+
+# GEMs for build the view
+# Easier & faster then ERB
+gem 'slim-rails'
+
+# GoogleMaps GEM (using Google maps API V3)
+gem 'gmaps4rails'
+
+# Use SCSS for stylesheets
+gem 'sass-rails'
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier'
+
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails'
+
+# for the social-buttons
+gem 'jasny_bundle', git: 'https://github.com/TonFw/jasny-bundle.git', branch: 'master'
+
+# Style & Interactions view frameworks
+# jQuery for Rails & it UI
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
+# Bootstrap & it dependencies Date picker for bootstrap (easy calendar)
+gem 'less-rails'
+gem 'less-rails-bootstrap'
+gem 'bootstrap-datepicker-rails'
+
+# Gem for Bootstrap with material design
+gem 'bootstrap-material-design'
+
+# IconFonts - FontAwesome
+gem 'font-awesome-rails'
+
+# Generate documentation
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api
+  gem 'sdoc', require: false
+end
+
+# Just for production like on Heroku
+gem 'rails_12factor', group: :production
+
+# GEMs to work only on test & development environments
+group :development, :test do
+  # RSPec for BDD pratices
+  gem 'rspec-rails'
+
+  # Annotate the DB model
+  gem 'annotate'
+
+  # Better Errors for fast debug from the view on the browser
+  gem 'better_errors'
+
+  # Plugin for better errors
+  gem 'binding_of_caller'
+
+  # Option to not use Fixtures (FactoryGirl)
+  gem 'factory_girl_rails'
+
+  # Create readable attrs values
+  gem 'faker'
+
+  # RSPec Plugin for testing Views
+  gem 'capybara'
+
+  # RSPec Plugin for code-coverage
+  gem 'simplecov'
+
+  # RSPec Plugin for params on its
+  gem 'its'
+end
+
+# ========================== /GEMs Added by MirrorGem ==============================
