@@ -1,8 +1,5 @@
 # ========================== GEMs Added by MirrorGem ==============================
 
-# Add itself gem
-gem 'mirror_reflection'
-
 # Add here BRAZIL & other countries gems
 gem 'cpf_cnpj'
 
@@ -57,15 +54,6 @@ gem 'slim-rails'
 # GoogleMaps GEM (using Google maps API V3)
 gem 'gmaps4rails'
 
-# Use SCSS for stylesheets
-gem 'sass-rails'
-
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier'
-
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails'
-
 # for the social-buttons
 gem 'jasny_bundle', git: 'https://github.com/TonFw/jasny-bundle.git', branch: 'master'
 
@@ -85,17 +73,14 @@ gem 'bootstrap-material-design'
 # IconFonts - FontAwesome
 gem 'font-awesome-rails'
 
-# Generate documentation
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api
-  gem 'sdoc', require: false
-end
-
 # Just for production like on Heroku
 gem 'rails_12factor', group: :production
 
 # GEMs to work only on test & development environments
 group :development, :test do
+  # For SSL connection on localhost
+  gem 'tunnels'
+
   # RSPec for BDD pratices
   gem 'rspec-rails'
 
