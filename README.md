@@ -32,7 +32,11 @@ Or install it yourself as :arrow_forward::
 
     ``` $ rails g mirror:install ```
     
-6. Run the mirror reflect :boom: (it runs scaffolds, so lets :pizza: while the mirror work for you :tada:)
+6. install the Gemfile updated
+
+    ``` $ bundle install ```
+    
+7. Run the mirror reflect :boom: (it runs scaffolds, so lets :pizza: while the mirror work for you :tada:)
 
     ```rake
         # DBMS = SGBD 
