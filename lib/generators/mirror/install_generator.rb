@@ -8,7 +8,7 @@ module Mirror
       def copy_initializer
         # Add mirror.rake FILE
         template "mirror.rake", "lib/tasks/mirror.rake"
-        puts 'Now the mirror tasks were added & you can run: rake mirror:install & rake mirror:reflect'.colorize(:light_green)
+        puts 'Now the mirror tasks were added & you can run: rake mirror:reflect'.colorize(:light_green)
 
         # Edit the Gemfile FILE
         puts 'Updating your gemfile'.colorize(:light_blue)

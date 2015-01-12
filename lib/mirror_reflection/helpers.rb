@@ -1,11 +1,11 @@
 # Methods to help on the task's calls
 class MirrorReflection::Helpers
-  @templates_dir = './lib/generators/templates'
+  @templates_dir = 'lib/generators/templates'
 
   # Read it Gemfile on templates & append it to the project Gemfile
   def self.append_gemfile
     # Read the file
-    gemfile = File.open("#{@templates_dir}/Gemfile").read
+    gemfile = File.open("#{Dir.pwd}/#{@templates_dir}/Gemfile").read
     gemfile.gsub!(/\r\n?/, '\n')
 
     # Here goes it append
