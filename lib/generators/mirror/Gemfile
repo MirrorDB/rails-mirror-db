@@ -6,6 +6,10 @@ gem 'cpf_cnpj'
 # Add a workflow to the model which can't be on some state before another
 gem "workflow"
 
+# To control access permissions
+gem 'the_role'
+gem 'the_role_bootstrap3_ui'
+
 # To generate great report's charts
 gem 'chartjs-ror'
 gem 'lazy_high_charts'
@@ -23,8 +27,11 @@ gem 'rest-client'
 # To consume SOAP WebServices API
 gem 'savon'
 
-# To Async tasks
+# To Async tasks (schedules)
 gem 'rufus-scheduler'
+
+# While scheduler schedule task, sidekiq keep doing some hard task on background
+gem 'sidekiq'
 
 # PaymentMethods
 gem 'rents'
@@ -52,6 +59,7 @@ gem 'just_share'
 gem 'slim-rails'
 
 # GoogleMaps GEM (using Google maps API V3)
+gem 'geocoder'
 gem 'gmaps4rails'
 
 # for the social-buttons
@@ -61,6 +69,7 @@ gem 'jasny_bundle', git: 'https://github.com/TonFw/jasny-bundle.git', branch: 'm
 # jQuery for Rails & it UI
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'multi-select-rails'
 
 # Bootstrap & it dependencies Date picker for bootstrap (easy calendar)
 gem 'less-rails'
@@ -73,8 +82,14 @@ gem 'bootstrap-material-design'
 # IconFonts - FontAwesome
 gem 'font-awesome-rails'
 
+# Paginate the results using the Bootstrap
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
 # Just for production like on Heroku
 gem 'rails_12factor', group: :production
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 # GEMs to work only on test & development environments
 group :development, :test do
