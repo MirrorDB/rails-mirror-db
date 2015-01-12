@@ -17,7 +17,7 @@ Or install it yourself as :arrow_forward::
     $ gem install mirror_reflection
 
 ## Usage
-1. Install the Rails:gem: (3.2 or greater)
+1. Install the Rails:gem: 4.2.0
     * ``` $ gem install rails ```
 2. [Install the MirrorGEM](#installation)
 3. Generate your rails project
@@ -30,7 +30,7 @@ Or install it yourself as :arrow_forward::
     
 5. Run the mirror installation :dash:
 
-    ``` $ rails g mirror_reflection:install ```
+    ``` $ rails g mirror:install ```
     
 6. Run the mirror reflect :boom: (it runs scaffolds, so lets :pizza: while the mirror work for you :tada:)
 
