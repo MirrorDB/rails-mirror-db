@@ -52,6 +52,9 @@ __Congratilation!__ your new app mirrored is up. :tada:
 4. Push to the branch :repeat: (`git push origin my-new-feature`)
 5. Create a new Pull Request :repeat_one:
 
+## Useful guides for contributing 
+1. [__How rails templates can be edited & how them work__](http://technology.stitchfix.com/blog/2014/01/06/rails-app-templates/)
+
 
 ## How does it work on the core :zap:
 ![Mirror WorkFlow Diagram](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png)
