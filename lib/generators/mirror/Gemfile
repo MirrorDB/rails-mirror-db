@@ -92,36 +92,34 @@ gem 'capistrano'
 gem 'rvm-capistrano'
 
 # GEMs to work only on test & development environments
-group :development, :test do
-  # For SSL connection on localhost
-  gem 'tunnels'
+# For SSL connection on localhost
+gem 'tunnels', group: [:development, :test]
 
-  # RSPec for BDD pratices
-  gem 'rspec-rails'
+# RSPec for BDD pratices
+gem 'rspec-rails', group: [:development, :test]
 
-  # Annotate the DB model
-  gem 'annotate'
+# Annotate the DB model
+gem 'annotate', group: [:development, :test]
 
-  # Better Errors for fast debug from the view on the browser
-  gem 'better_errors'
+# Better Errors for fast debug from the view on the browser
+gem 'better_errors', group: [:development, :test]
 
-  # Plugin for better errors
-  gem 'binding_of_caller'
+# Plugin for better errors
+gem 'binding_of_caller', group: [:development, :test]
 
-  # Option to not use Fixtures (FactoryGirl)
-  gem 'factory_girl_rails'
+# Option to not use Fixtures (FactoryGirl)
+gem 'factory_girl_rails', group: [:development, :test]
 
-  # Create readable attrs values
-  gem 'faker'
+# Create readable attrs values
+gem 'faker', group: [:development, :test]
 
-  # RSPec Plugin for testing Views
-  gem 'capybara'
+# RSPec Plugin for testing Views
+gem 'capybara', group: [:development, :test]
 
-  # RSPec Plugin for code-coverage
-  gem 'simplecov'
+# RSPec Plugin for code-coverage
+gem 'simplecov', group: [:development, :test]
 
-  # RSPec Plugin for params on its
-  gem 'its'
-end
+# RSPec Plugin for params on its
+gem 'its', group: [:development, :test]
 
 # ========================== /GEMs Added by MirrorGem ==============================

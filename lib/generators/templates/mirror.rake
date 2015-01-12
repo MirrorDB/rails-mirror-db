@@ -11,7 +11,7 @@ namespace :mirror do
   desc "Generate rakes & Gemfile. & run the rails g :install for the gems which need it"
   task :install do
     puts 'mirror:install task started'.colorize(:light_green)
-    MirrorReflection::Install.task ARGV
+    MirrorReflection::Install.task
   end
 
   desc "Generate the scaffolds based on the DataBase models"
