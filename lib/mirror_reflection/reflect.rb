@@ -1,5 +1,6 @@
 class MirrorReflection::Reflect
   def self.task
-    puts 'mirror:reflect called'
+    # Bundle install must be manually
+
   end
 end
