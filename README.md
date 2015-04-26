@@ -1,11 +1,11 @@
-# ![MirrorBrand](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png)   MirrorReflection
+# ![MirrorBrand](https://avatars1.githubusercontent.com/u/10462330?v=3&s=200)   MirrorDB
 
 ## Installation
 
 Add the MirrorReflection:gem: to your application's Gemfile :page_facing_up::
 
 ```ruby
-gem 'mirror_reflection'
+gem 'mirror-db'
 ```
 
 And then execute :arrow_forward::
@@ -14,7 +14,7 @@ And then execute :arrow_forward::
 
 Or install it yourself as :arrow_forward::
 
-    $ gem install mirror_reflection
+    $ gem install mirror-db
 
 ## Usage
 1. Install the Rails:gem: 4.2.0
