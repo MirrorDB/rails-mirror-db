@@ -1,4 +1,4 @@
-# ![MirrorBrand](https://avatars1.githubusercontent.com/u/10462330?v=3&s=200)   MirrorDB
+# ![MirrorBrand](https://avatars1.githubusercontent.com/u/10462330?v=3&s=64)   MirrorDB
 
 ## Installation
 
@@ -47,6 +47,10 @@ Or install it yourself as :arrow_forward::
 <br><br>
 __Congratilation!__ your new app mirrored is up. :tada:
 
+## Base Mirror-V1 WorkFlow
+
+![Mirror V1 WorkFlow Diagram](https://github.com/MirrorDB/rails-mirror-db/blob/master/modeling/diagrams/MirrorWorkFlow-V1.png?raw=true)
+
 ## Contributing
 
 1. Fork it :twisted_rightwards_arrows: ( https://github.com/[my-github-username]/mirror_reflection/fork )
@@ -61,4 +65,4 @@ __Congratilation!__ your new app mirrored is up. :tada:
 
 
 ## How does it work on the core :zap:
-![Mirror WorkFlow Diagram](https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png)
+![Mirror WorkFlow Diagram](https://github.com/MirrorDB/rails-mirror-db/blob/master/modeling/diagrams/MirrorWorkFlow-VN.png?raw=true)
