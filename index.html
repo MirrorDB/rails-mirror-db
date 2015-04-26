@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Rails MirrorReflection by MirrorDB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Rails MirrorReflection by MirrorReflection</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Rails MirrorReflection</h1>
-        <h2>RubyGEM that reflect your DataBase models in a Rails project</h2>
-        <a href="https://github.com/MirrorReflection/rails_mirror_reflection" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+    <section class="page-header">
+      <h1 class="project-name">Rails MirrorReflection</h1>
+      <h2 class="project-tagline">RubyGEM that reflect your DataBase models in a Rails project</h2>
+      <a href="https://github.com/MirrorDB/rails_mirror_db" class="btn">View on GitHub</a>
+      <a href="https://github.com/MirrorDB/rails_mirror_db/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/MirrorDB/rails_mirror_db/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
+    <section class="main-content">
+      <h1>
 <a id="---mirrorreflection" class="anchor" href="#---mirrorreflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>
 <img src="https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/logos/MirrorLogo.min.png" alt="MirrorBrand">   MirrorReflection</h1>
 
@@ -37,7 +28,7 @@
 
 <p>Add the MirrorReflection<img class="emoji" title=":gem:" alt=":gem:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" height="20" width="20" align="absmiddle"> to your application's Gemfile <img class="emoji" title=":page_facing_up:" alt=":page_facing_up:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4c4.png" height="20" width="20" align="absmiddle">:</p>
 
-<div class="highlight highlight-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s1"><span class="pl-pds">'</span>mirror_reflection<span class="pl-pds">'</span></span></pre></div>
+<div class="highlight highlight-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>mirror_reflection<span class="pl-pds">'</span></span></pre></div>
 
 <p>And then execute <img class="emoji" title=":arrow_forward:" alt=":arrow_forward:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/25b6.png" height="20" width="20" align="absmiddle">:</p>
 
@@ -53,7 +44,7 @@
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <ol>
-<li>Install the Rails<img class="emoji" title=":gem:" alt=":gem:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" height="20" width="20" align="absmiddle"> (3.2 or greater)
+<li>Install the Rails<img class="emoji" title=":gem:" alt=":gem:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png" height="20" width="20" align="absmiddle"> 4.2.0
 
 <ul>
 <li><code>$ gem install rails</code></li>
@@ -73,7 +64,12 @@
 <li>
 <p>Run the mirror installation <img class="emoji" title=":dash:" alt=":dash:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a8.png" height="20" width="20" align="absmiddle"></p>
 
-<p><code>$ rails g mirror_reflection:install</code></p>
+<p><code>$ rails g mirror:install</code></p>
+</li>
+<li>
+<p>install the Gemfile updated</p>
+
+<p><code>$ bundle install</code></p>
 </li>
 <li>
 <p>Run the mirror reflect <img class="emoji" title=":boom:" alt=":boom:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a5.png" height="20" width="20" align="absmiddle"> (it runs scaffolds, so lets <img class="emoji" title=":pizza:" alt=":pizza:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f355.png" height="20" width="20" align="absmiddle"> while the mirror work for you <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20" align="absmiddle">)</p>
@@ -106,29 +102,27 @@
 </ol>
 
 <h2>
+<a id="useful-guides-for-contributing" class="anchor" href="#useful-guides-for-contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Useful guides for contributing</h2>
+
+<ol>
+<li><a href="http://technology.stitchfix.com/blog/2014/01/06/rails-app-templates/"><strong>How rails templates can be edited &amp; how them work</strong></a></li>
+</ol>
+
+<h2>
 <a id="how-does-it-work-on-the-core-zap" class="anchor" href="#how-does-it-work-on-the-core-zap" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does it work on the core <img class="emoji" title=":zap:" alt=":zap:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a1.png" height="20" width="20" align="absmiddle">
 </h2>
 
 <p><img src="https://raw.githubusercontent.com/MirrorReflection/rails_mirror_reflection/master/modeling/diagrams/Mirror%20-%20WorkFlow.png" alt="Mirror WorkFlow Diagram"></p>
-        </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/MirrorReflection/rails_mirror_reflection/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/MirrorReflection/rails_mirror_reflection/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/MirrorDB/rails_mirror_db">Rails MirrorReflection</a> is maintained by <a href="https://github.com/MirrorDB">MirrorDB</a>.</span>
 
-          <p class="repo-owner"><a href="https://github.com/MirrorReflection/rails_mirror_reflection"></a> is maintained by <a href="https://github.com/MirrorReflection">MirrorReflection</a>.</p>
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+    </section>
 
   
   </body>
 </html>
+
