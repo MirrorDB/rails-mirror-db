@@ -1,4 +1,4 @@
-class MirrorReflection::New
+class MirrorDB::New
   # Static attrs
   @database
   @project

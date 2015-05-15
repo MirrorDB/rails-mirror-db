@@ -1,4 +1,4 @@
-class MirrorReflection::Install
+class MirrorDB::Install
   def self.task
     # if terminal_params.nil? it means that the Dev generated the rails & is running by this step
     system('bundle install')

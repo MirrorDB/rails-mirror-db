@@ -1,7 +1,7 @@
 # Gem files
-[:version, :string, :hash, :new, :install, :reflect, :helpers].each { |lib| require "mirror_reflection/#{lib}" }
+[:version, :string, :hash, :new, :install, :reflect, :helpers].each { |lib| require "mirror-db/#{lib}" }
 
-module MirrorReflection
+module MirrorDB
   # If true the mirror wont generate custom fk,pk & table references
   @rails_pattern
 
