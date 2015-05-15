@@ -2,7 +2,7 @@
 
 ## Installation
 
-Add the MirrorReflection:gem: to your application's Gemfile :page_facing_up::
+Add the MirrorDB:gem: to your application's Gemfile :page_facing_up::
 
 ```ruby
 gem 'mirror-db'
@@ -53,8 +53,8 @@ __Congratilation!__ your new app mirrored is up. :tada:
 
 ## Contributing
 
-1. Fork it :twisted_rightwards_arrows: ( https://github.com/[my-github-username]/mirror_reflection/fork )
-    * Create and check issues pending ([good issue pattern created example](https://github.com/MirrorReflection/rails_mirror_reflection/issues/12))
+1. Fork it :twisted_rightwards_arrows: ( https://github.com/MirrorDB/rails-mirror-db )
+    * Create and check issues pending ([good issue pattern created example](https://github.com/MirrorDB/rails-mirror-db/issues/12))
 2. Create your :new: feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes :up: (`git commit -am 'Add some feature'`)
 4. Push to the branch :repeat: (`git push origin my-new-feature`)
