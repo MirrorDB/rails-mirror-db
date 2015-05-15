@@ -2,7 +2,7 @@
 
 ## Installation
 
-Add the MirrorDB:gem: to your application's Gemfile :page_facing_up::
+Add the MirrorDB :gem: to your application's Gemfile :page_facing_up::
 
 ```ruby
 gem 'mirror-db'
@@ -17,7 +17,7 @@ Or install it yourself as :arrow_forward::
     $ gem install mirror-db
 
 ## Usage
-1. Install the Rails:gem: 4.2.0
+1. Install the Rails :gem: (tested using 3.2 and greater)
     * ``` $ gem install rails ```
 2. [Install the MirrorGEM](#installation)
 3. Generate your rails project
@@ -42,7 +42,7 @@ Or install it yourself as :arrow_forward::
         # DBMS = SGBD 
         rake mirror:reflect[dbms_name database_name username password host]
     ```
-    __Obs__: if your DB connections are not default (localhost, root, no_password) :beers:
+    __Obs__: params not necessary if default DB connections: localhost, root, no_password :beers:
 
 <br><br>
 __Congratilation!__ your new app mirrored is up. :tada:
