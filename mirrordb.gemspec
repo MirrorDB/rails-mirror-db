@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'mirror-db'
   spec.version       = MirrorDB::VERSION
   spec.authors       = ['Ilton Garcia dos Santos Silveira']
-  spec.email         = ['ilton_unb@hotmail.com']
+  spec.email         = ['ton.garcia.jr@gmail.com']
   spec.summary       = 'MirrorDBFramework to easy migrate to or create a Rails projects'
   spec.description   = 'MirrorDB generate a mirror application based on the existing DataBase'
   spec.homepage      = 'http://mirrordb.github.io/rails-mirror-db/'
