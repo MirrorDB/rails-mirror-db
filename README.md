@@ -53,6 +53,8 @@ __Congratilation!__ your new app mirrored is up. :tada:
 
 <img src="http://infozone.se/2.0/wp-content/uploads/2014/05/jetbrains-logo-300x75.png" height="45px" style="float: right;"/> Granted &nbsp;&nbsp;&nbsp; <img src="https://confluence.jetbrains.com/download/attachments/20237/RUBYDEV?version=1&modificationDate=1373543644000" width="45px" height="45px" style="margin-left: 10px; "/> &nbsp;&nbsp;&nbsp; License, supporting it OpenSource project.
 
+<br>
+
 
 <img src="http://www.itcp.coppe.ufrj.br/ridi/images/incsocsolidaria02.gif" width="75px" height="45px" /> CTD/UnB - Supporting on Mirror Events for entrepreneurs & about connections/marketing to improve it community
 
